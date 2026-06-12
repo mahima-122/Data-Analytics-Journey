@@ -1,0 +1,5 @@
+SELECT * FROM super_store LIMIT 12;
+SELECT category, SUM(profit) AS total_profit
+FROM super_store
+GROUP BY category
+ORDER BY total_profit DESC;
