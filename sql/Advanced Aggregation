@@ -1,0 +1,4 @@
+SELECT sub_category, AVG(discount) AS avg_discount
+FROM super_store
+GROUP BY sub_category
+ORDER BY avg_discount DESC;
