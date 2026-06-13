@@ -1,0 +1,3 @@
+SELECT * 
+FROM super_store
+WHERE state = 'California';
