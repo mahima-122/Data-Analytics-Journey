@@ -1,0 +1,10 @@
+SELECT 
+    category, 
+    sub_category,
+    profit,
+    CASE 
+        WHEN profit < 0 THEN 'Loss'
+        ELSE 'Profit'
+    END AS profit_status
+FROM super_store
+LIMIT 20;
